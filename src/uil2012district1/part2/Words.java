@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Words {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("words.dat"));
+        Scanner in = new Scanner(new File("data/uil2012/words.dat"));
         int N = in.nextInt();
         in.nextLine();
         for(int n=0; n<N; n++) {

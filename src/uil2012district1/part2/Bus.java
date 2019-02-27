@@ -9,7 +9,7 @@ public class Bus {
     private static Scanner in;
 
     public static void main(String[] args) throws FileNotFoundException {
-        in = new Scanner(new File("bus.dat"));
+        in = new Scanner(new File("data/uil2012/bus.dat"));
         int buses = in.nextInt();
         in.nextLine();
         for (int i = 0; i < buses; i++) {

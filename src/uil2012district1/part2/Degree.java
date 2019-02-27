@@ -1,13 +1,11 @@
 package uil2012district1.part2;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class Degree {
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner in = new Scanner(new File("degree.dat"));
+		Scanner in = new Scanner(new File("data/uil2012/degree.dat"));
 		int N = in.nextInt();
 		in.nextLine();
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Casting {
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner in = new Scanner(new File("casting.dat"));
+		Scanner in = new Scanner(new File("data/uil2012/casting.dat"));
 		int N = in.nextInt();
 		in.nextLine();
 

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FastMile {
     // CHANGE FILE NAME FOR EACH PROBLEM!
-    private static final String inputFileName = "fastmile.dat";
+    private static final String inputFileName = "data/uil2012/fastmile.dat";
     private static Scanner in;
 
     public static void main(String[] args) throws FileNotFoundException {
