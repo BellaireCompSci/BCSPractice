@@ -5,9 +5,10 @@ import java.io.*;
 
 public class MooyoMooyo
 {
-    static String[][] arr; 
+    static String[][] arr;
+    private static Scanner sc; 
     public static void main (String args[]) throws IOException {
-        Scanner sc = new Scanner(new File("src/usaco2018/mooyomooyo.in"));
+        sc = new Scanner(new File("src/usaco2018/mooyomooyo.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("mooyomooyo"
                 + ".out")));
         int n=sc.nextInt();//intake
@@ -66,10 +67,10 @@ public class MooyoMooyo
     private static void gravity(){ //basically will find all the nonzero elements and then put them at the end of an array, simulating gravity
         for(int i=0;i<arr[0].length;i++){
             boolean valst=false;
-            int num0 = 0;
             for(int j=0;j<arr.length;j++){
                 if(!arr[j][i].equals("0"))valst = true;
-                else if(valst == true) num0++;
+                else if(valst == true) {
+                }
             }
             String[] x = new String[arr.length];
             Arrays.fill(x,"0");

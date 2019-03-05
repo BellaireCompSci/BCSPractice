@@ -10,8 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Convention2 {
+    private static BufferedReader sc;
+
     public static void main(String args[]) throws IOException {
-        BufferedReader sc = new BufferedReader(new FileReader("data/usaco2018/convention2.in"));
+        sc = new BufferedReader(new FileReader("data/usaco2018/convention2.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("convention2.out")));
 
         int n = Integer.parseInt(sc.readLine());
