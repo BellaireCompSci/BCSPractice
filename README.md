@@ -10,6 +10,8 @@ Along with each package, there is a link below to a Google Drive folder that con
 Note: *most are UIL problems in released packets given [here](http://www.cs.utexas.edu/users/scottm/uil/practiceMaterials.html)*
 
 ## Problem Directory
+- [UIL 2010 District 2](src/uil2010/district2)
+    - Problems and data files: [part 1](bit.ly/BCS017)
 - [UIL 2011 District 2](src/uil2011/district2)
     - Problems and data files: [part 1](bit.ly/BCS014)
 - [UIL 2011 State](src/uil2012/state)
